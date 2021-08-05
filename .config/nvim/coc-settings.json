@@ -1,0 +1,9 @@
+{
+	"java.imports.gradle.wrapper.checksums" : [
+		{"sha256": "953a9bad111c268b9b7f0b58874e58e4bc45451fe4b0c0af6d7b10b4d5b59e70", "allowed": true},
+	  {"sha256": "ebb6eaf164c425ffe76f9744a324feb774e750d821ed212d4c41f452adea248e", "allowed": true}
+  ],
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "python.jediEnabled": false,
+  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/home/ecascardo/.config/coc/extensions/node_modules/coc-java-lombok/jar/lombok.jar\""
+}
