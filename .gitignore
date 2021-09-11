@@ -2,3 +2,4 @@
 .config/coc/extensions/coc-java-data-11/jdt_ws_*
 .config/coc/extensions/coc-java-data-8/server/config_linux/*.log
 .config/coc/extensions/coc-java-data-11/server/config_linux/*.log
+.config/coc/extensions/coc-java-data-8/server/config_linux/org.eclipse.core.runtime/*

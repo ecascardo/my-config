@@ -31,8 +31,9 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 
-" Completion
+" IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'sheerun/vim-polyglot'
 
 " Search
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -82,7 +83,8 @@ nmap <Leader>h <C-w>h
 nmap <Leader>l <C-w>l
 nmap <Leader>v <C-w>v
 
-nmap <Leader>f :Rg<Space>
+nmap <Leader>f :Rg<CR>
+nmap <Leader>p :Files<CR>
 
 nmap <Tab> :tabn<CR>
 
