@@ -4,7 +4,7 @@ let &packpath = &runtimepath
 set number
 set mouse=a
 set numberwidth=1
-set clipboard=unnamed
+set clipboard=unnamedplus
 syntax enable
 set showcmd
 set ruler
@@ -20,20 +20,28 @@ set bg=dark
 
 call plug#begin('~/.vim/plugged')
 
+" Themes
 Plug 'morhetz/gruvbox'
+
+" Status
+Plug 'itchyny/lightline.vim'
+
+" Navigation
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'tyru/open-browser.vim'
+
+" Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Search
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Preview
+Plug 'tyru/open-browser.vim'
 Plug 'xavierchow/vim-swagger-preview'
-
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-
 Plug 'aklt/plantuml-syntax'
 Plug 'weirongxu/plantuml-previewer.vim'
 
@@ -43,7 +51,6 @@ let NERDTreeQuitOnOpen=1
 let mapleader=" "
 
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
 
 let g:plantuml_previewer#plantuml_jar_path = "/usr/share/java/plantuml.jar"
 
