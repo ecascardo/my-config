@@ -77,11 +77,12 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>x :x<CR>
 
-nmap <Leader>j <C-w>j
-nmap <Leader>k <C-w>k
-nmap <Leader>h <C-w>h
-nmap <Leader>l <C-w>l
+nmap <Leader><Down>  <C-w>j
+nmap <Leader><Up>    <C-w>k
+nmap <Leader><Left>  <C-w>h
+nmap <Leader><Right> <C-w>l
 nmap <Leader>v <C-w>v
+nmap <Leader>s <C-w>s
 
 nmap <Leader>f :Rg<CR>
 nmap <Leader>p :Files<CR>
