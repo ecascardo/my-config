@@ -54,10 +54,10 @@ bindsym $mod+Shift+q kill
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+space exec rofi -show combi -theme solarized -font "hack 20" -icon-theme "Papirus" -show-icons
+bindcode $mod+40 exec rofi -show combi -theme solarized -font "hack 20" -icon-theme "Papirus" -show-icons
 
 #bindsym $mod+i exec ls ~/source/meli | rofi -show -dmenu -theme solarized -font "hack 20" -i | xargs -I% idea ~/source/meli/%
-bindsym ctrl+space exec /home/ecascardo/source/fury-nav/fury-nav.sh list | rofi -show -dmenu -theme solarized -font "hack 20" -i | /home/ecascardo/source/fury-nav/fury-nav.sh
+bindsym $mod+space exec /home/ecascardo/source/fury-nav/fury-nav.sh list | rofi -show -dmenu -theme solarized -font "hack 20" -i | /home/ecascardo/source/fury-nav/fury-nav.sh
 
 
 # change focus
